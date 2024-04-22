@@ -1,0 +1,475 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.container-fluid {
+    background-color: rgb(244, 216, 12);
+}
+
+.navbar-brand {
+    font-size: 2rem !important;
+    font-weight: 700;
+    margin-left: 40px;
+}
+
+.nav-item {
+
+    a {
+        color: black;
+        font-size: 1rem;
+        font-weight: 500 !important;
+    }
+}
+
+#navbarNav {
+    justify-content: flex-end;
+    text-align: right;
+}
+
+.containerGeneral {
+    border: 5px solid grey;
+}
+
+.borde {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    border: 1px black solid;
+    border-radius: 1.5rem;
+    background-color: black;
+    height: 30px;
+    margin-top: 8px;
+    margin-left: 20px;
+    padding-bottom: 3px;
+    padding-right: 8px;
+    padding-left: 8px;
+}
+
+.containerBuscador {
+    background-color: rgb(244, 216, 12);
+    ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    flex-wrap: nowrap;
+}
+
+.probar {
+    color: black;
+    font-weight: 700;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+
+}
+
+.titulo {
+    font-size: 45pt !important;
+}
+
+.BuscarServicio {
+    background-image: url(/assets/img/back\ 1.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 110vh;
+    width: 100% !important;
+    min-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+
+.contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+}
+
+.containerBotones {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 900px !important;
+}
+
+.boton {
+    background-color: white;
+    width: 290px !important;
+    padding-top: 5px;
+    padding-bottom: 7px;
+
+    a {
+        text-decoration: none;
+        color: black;
+        padding-left: 25px;
+        padding-right: 25px;
+        font-size: 1.5rem;
+        font-weight: 700;
+
+    }
+
+    border: none;
+    border-radius: 1rem;
+    margin: 20px;
+}
+
+.container-encontra-experto {
+    background-image: url(/assets/img/back2.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 110vh;
+    width: 100% !important;
+    min-width: 100%;
+    border: #404446 solid 4px;
+}
+
+.titulo-encontra {
+    background-color: #f4d80c;
+    display: inline-block;
+    margin-top: 200px;
+    font-size: 50px;
+    padding-bottom: 10px;
+    margin-bottom: 3px;
+    font-weight: 700;
+    color: #070707;
+}
+
+.titulo-encontra-2 {
+    background-color: #f4d80c;
+    display: inline-block;
+    margin-left: 128.5px;
+    font-size: 50px;
+    padding-bottom: 10px;
+    font-weight: 700;
+    color: #070707;
+
+}
+
+.container-textos-encontra {
+    position: relative;
+    left: 200px;
+    bottom: 40px;
+}
+
+.container-imagenes-expertos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    padding-top: 30px;
+}
+
+.container-img-mix {
+    color: white;
+    display: flex !important;
+    align-items: center !important;
+    flex-direction: column;
+}
+
+.container-img-mix p {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.container-imagenes-expertos img {
+    height: auto;
+    overflow: hidden;
+}
+
+
+.container-cons-varios {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    position: relative;
+    right: 15px !important;
+}
+
+
+.container-contacto {
+    height: 100vh;
+    width: 100%;
+    background-color: #f4d80c;
+    min-width: 100%;
+}
+
+.titulo-contactanos {
+    font-size: 50px;
+    font-weight: 700;
+    color: #070707;
+    padding-top: 50px;
+}
+
+#contactForm {
+    display: flex;
+    margin: 40px;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.container-inputs {
+    display: flex;
+    justify-content: center;
+}
+
+#contactForm input {
+    padding: 20px;
+    width: 330px;
+    margin-right: 100px;
+    flex-wrap: wrap;
+}
+
+.container-mensaje-contacto {
+    display: flex;
+    justify-content: center;
+}
+
+.text-area {
+    height: 180px;
+    min-width: 100%;
+}
+
+.container-boton-contacto {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px !important;
+}
+
+.btn-primary {
+    width: 75px;
+    --bs-btn-bg: black !important;
+    text-decoration: none;
+    border: #070707 solid 1px !important;
+    border-radius: 40px !important;
+    height: 38px;
+    padding: 0px !important;
+}
+
+.btn-primary:hover {
+    text-decoration: none;
+    background-color: #404446 !important;
+}
+
+@media screen and (max-width: 1200px) {
+    .titulo-encontra {
+        background-color: #f4d80c;
+        display: inline-block;
+        margin-top: 200px;
+        font-size: 40px;
+        padding-bottom: 10px;
+        margin-bottom: 3px;
+        font-weight: 700;
+        color: #070707;
+    }
+
+    .titulo-encontra-2 {
+        background-color: #f4d80c;
+        display: inline-block;
+        margin-left: 103px;
+        font-size: 40px;
+        padding-bottom: 10px;
+        font-weight: 700;
+        color: #070707;
+
+    }
+
+    .container-textos-encontra {
+        position: relative;
+        left: 150px;
+        bottom: 70px;
+    }
+
+    .container-imagenes-expertos {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+        padding-top: 3px;
+    }
+
+    .container-img-mix {
+        color: white;
+        display: flex !important;
+        align-items: center !important;
+        flex-direction: column;
+    }
+
+    .container-img-mix p {
+        margin-top: 20px;
+        font-size: 20px;
+        font-weight: 700;
+    }
+
+    .container-imagenes-expertos img {
+        height: auto;
+        overflow: hidden;
+    }
+
+    .container-contacto {
+        height: 115vh;
+        width: 100%;
+        background-color: #f4d80c;
+        min-width: 100%;
+    }
+
+    .titulo-contactanos {
+        font-size: 2.5rem;
+    }
+
+    #contactForm {
+        display: flex;
+        margin: 40px;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 50px;
+    }
+
+    .container-inputs {
+        display: flex;
+        justify-content: center !important;
+    }
+
+    #contactForm input {
+        padding: 20px;
+        width: 270px !important;
+        margin-right: 100px;
+        flex-wrap: wrap;
+    }
+
+    .container-mensaje-contacto {
+        display: flex;
+        justify-content: center;
+    }
+
+    .text-area {
+        height: 150px;
+        min-width: 100%;
+    }
+
+    .container-boton-contacto {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px !important;
+    }
+
+    .btn-primary {
+        width: 75px;
+        --bs-btn-bg: black !important;
+        text-decoration: none;
+        border: #070707 solid 1px !important;
+        border-radius: 40px !important;
+        height: 38px;
+        padding: 0px !important;
+    }
+
+    .btn-primary:hover {
+        text-decoration: none;
+        background-color: #404446 !important;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .titulo {
+        font-size: 30px !important;
+    }
+
+    .container-encontra-experto {
+        background-image: url(/assets/img/back2.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 110vh;
+        width: auto !important;
+        min-width: 100%;
+        border: #404446 solid 4px;
+    }
+
+    .container-textos-encontra {
+        position: relative;
+        left: auto;
+        bottom: 70px;
+        width: auto !important;
+        height: auto !important;
+    }
+
+    .titulo-encontra {
+        background-color: #f4d80c;
+        display: inline-block;
+        margin-top: 100px;
+        font-size: 22px;
+        padding-bottom: 10px;
+        margin-bottom: 3px;
+        font-weight: 700;
+        color: #070707;
+    }
+
+    .titulo-encontra-2 {
+        background-color: #f4d80c;
+        display: inline-block;
+        margin-left: 57px;
+        font-size: 22px;
+        padding-bottom: 10px;
+        font-weight: 700;
+        color: #070707;
+
+    }
+
+    .container-imagenes-expertos {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+        flex-wrap: wrap;
+        padding-top: 3px;
+    }
+
+    .container-imagenes-expertos img {
+        width: 50px !important;
+    }
+
+
+    .container-img-mix p {
+        margin-top: 10px;
+        font-size: 14px !important;
+        font-weight: 700;
+    }
+
+    .container-cons-varios {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+        position: relative;
+        right: 15px !important;
+    }
+
+    .container-contacto {
+        height: auto;
+        width: 100%;
+        background-color: #f4d80c;
+        min-width: 100%;
+    }
+
+    #contactForm input {
+        padding: 20px;
+        width: 100% !important;
+        flex-wrap: wrap;
+        margin: auto !important;
+    }
+
+}
