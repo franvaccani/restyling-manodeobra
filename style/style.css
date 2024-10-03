@@ -50,9 +50,9 @@
     border-radius: 1.5rem;
     background-color: black;
     height: 30px;
-    margin-top: 16px;
+    margin-top: 6px;
     margin-left: 20px;
-    padding: 16px 12px 16px 6px;
+    padding: 21px 12px 16px 6px;
     width: 158px;
 }
 
@@ -549,4 +549,13 @@
         margin: auto !important;
     }
 
+}
+@media screen and (max-width: 997px) {
+    .navbar-nav{
+        align-items: end;
+    }
+    .borde a{
+        margin-right: 0px !important;
+        padding-left: 6px;
+    }
 }
